@@ -1,3 +1,17 @@
 // Place all the styles related to the posts controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+.posts_table {
+  table-layout: fixed;
+  width: 100%;
+}
+
+.posts_table .content_column {
+  width: 70%;
+  word-wrap: break-word;
+  white-space: nowrap;
+}
+
+.posts_table .actions_column {
+  width: 30%;
+}
